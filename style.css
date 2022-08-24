@@ -2,11 +2,15 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+p{
+    text-align: justify;
+}
 .name{
     color:goldenrod
 }
-section{
+.flexible-container{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width{
    
@@ -14,7 +18,7 @@ section{
     padding-left: 2%;
 }
 .half-width img{
-    width:110%
+    width:100%
 }
 .link-button{
     text-decoration: none;
@@ -28,4 +32,30 @@ section{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.Expariences-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+.Expeariance-itm{
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 3%;
+    border-radius: 10px;
+    box-shadow:10px 20px 30px gray ;
+}  
+#full-stack-dev{
+    border-left:7px solid tomato;
+}
+#baby-dev{
+    border-left: 7px solid blue;
+}
+footer p{
+    text-align: center;
 }
